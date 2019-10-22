@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="base_url">https://gitlab.box8.co.in/</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="error">Error!</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading...</string>
+    <string name="not_available">N/A</string>
+    <string name="error_internet">No Internet Connection</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen_10_dp"
+    android:paddingRight="@dimen/dimen_10_dp"
+    tools:context=".view.activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id="@+id/crust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_5_dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_5_dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/txt_sauce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/sauce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
